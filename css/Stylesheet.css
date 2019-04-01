@@ -1,0 +1,29 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    font: 15px arial, sans-serif;
+    background-color: #00132E;}
+
+    body,h1,h2,h3,h4,h5,h6 {
+        font-family: "arial", sans-serif;
+        color: white;
+    }
+
+    body, html {
+      height: 100%;
+      line-height: 1.8;
+    }
+    
+    /* Full height image header */
+    .bgimg-1 {
+      background-position: center;
+      background-size: cover;
+      background-image: url("../image/app_mockup.png");
+      min-height: 100%;
+    }
+    
+    .w3-bar .w3-button {
+      padding: 16px;
+    }
