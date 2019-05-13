@@ -399,6 +399,7 @@ footer {
   margin-top: 50px;
   margin-bottom: 50px;
   cursor: default;
+
 }
 
 .card:hover {
@@ -407,4 +408,6 @@ footer {
 
 .card-container {
   padding: 2px 16px;
+  width: 100%;
+  float: right;
 }
