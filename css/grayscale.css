@@ -4,10 +4,10 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
 
-.gutter{
-  margin:0px;
+.gutter {
+  margin: 0px;
 }
-#feature-text{
+#feature-text {
   font-size: 12px;
 }
 #mainNav {
@@ -18,8 +18,8 @@
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #00132E;
-  border: 1px solid #00132E;
+  color: #00132e;
+  border: 1px solid #00132e;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -29,7 +29,7 @@
 #mainNav .navbar-brand {
   color: #161616;
   font-weight: 700;
-  padding: .9rem 0;
+  padding: 0.9rem 0;
 }
 
 #mainNav .navbar-nav .nav-item:hover {
@@ -38,15 +38,15 @@
   background-color: transparent;
 }
 
-#mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
+#mainNav .navbar-nav .nav-item:active,
+#mainNav .navbar-nav .nav-item:focus {
   outline: none;
   background-color: transparent;
 }
 
-
-body{ 
+body {
   overflow-x: hidden;
-  color:#8c8c8c;
+  color: #8c8c8c;
 }
 .masthead {
   position: relative;
@@ -54,19 +54,17 @@ body{
   height: auto;
   min-height: 35rem;
   padding: 0rem 0 25rem;
-  background: url("../image/app_mockup_banner1.png");
-  background: url("../image/app_mockup_banner1.png");
+  background: url("../image/app_mockup_banner2.png");
+  background: url("../image/app_mockup_banner2.png");
   background-position: center top;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
-  
 }
-.h1-center{
-  margin-top:250px;
-  margin-left:10px;
-  margin-right:auto;
-
+.h1-center {
+  margin-top: 250px;
+  margin-left: 10px;
+  margin-right: auto;
 }
 
 .masthead h1 {
@@ -82,62 +80,72 @@ body{
   font-size: 1rem;
 }
 
-
-
-
 .btn {
   -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
-  font-family: 'Varela Round';
+  font-family: "Varela Round";
   font-size: 80%;
   text-transform: uppercase;
-  letter-spacing: .15rem;
+  letter-spacing: 0.15rem;
   border: 0;
 }
 
 .btn-primary {
-  background-color:rgba(0, 19, 46, 1);
+  background-color: rgba(0, 19, 46, 1);
 }
 
 .btn-primary:hover {
-  background-color: rgba(182, 13, 1, 1);
+  background-color: #40434e;
 }
 
 .btn-primary:focus {
-  background-color: rgba(182, 13, 1, 1);
+  background-color: #40434e;
   color: white;
 }
 
 .btn-primary:active {
-  background-color:rgba(0, 19, 46, 1) !important;
+  background-color: rgba(0, 19, 46, 1) !important;
 }
 
 .white-section {
   padding-top: 2rem;
-  background: #f8f9fa!important;
-
+  background: #f8f9fa !important;
 }
 
 .about-section {
   padding-top: 2rem;
-  background: -webkit-gradient(linear, left top, left bottom, from( rgba(64, 67, 78, 1)), color-stop(75%,  rgba(64, 67, 78, 0.9), to( rgba(64, 67, 78, 1))));
-  background: linear-gradient(to bottom,  rgba(64, 67, 78, 1) 0%,  rgba(64, 67, 78, 0.8) 75%,  rgba(64, 67, 78, 0.8) 100%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(64, 67, 78, 1)),
+    color-stop(75%, rgba(64, 67, 78, 0.9), to(rgba(64, 67, 78, 1)))
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(64, 67, 78, 1) 0%,
+    rgba(64, 67, 78, 0.8) 75%,
+    rgba(64, 67, 78, 0.8) 100%
+  );
 }
 
 .about-section p {
   margin-bottom: 0.2rem;
-  margin-left:0rem;
-  margin-right:0rem;
+  margin-left: 0rem;
+  margin-right: 0rem;
 }
 .big-icon {
   font-size: 30px;
-  color:rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
-.text-card-title{
+.team-icon {
+  color: #00132e;
+}
+.text-card-title {
   font-size: 25px;
-  color:#fff;
-  text-align-last:center;
+  color: #fff;
+  text-align-last: center;
 }
 .projects-section {
   padding: 10rem 0;
@@ -154,8 +162,8 @@ body{
 
 .signup-section {
   padding: 10rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../image/app_mockup_footer.png");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../image/app_mockup_footer.png");
+  background: #b80c09;
+  background: #b80c09;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -167,7 +175,7 @@ body{
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
   height: auto;
-  font-family: 'Varela Round';
+  font-family: "Varela Round";
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
@@ -175,29 +183,29 @@ body{
 }
 
 .contact-section {
-  padding: 5rem 0 0;
+  padding: 0.5rem 0 0;
 }
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #00132E;
+  border-bottom: 0.25rem solid #00132e;
 }
 
 .contact-section .card h4 {
   font-size: 0.8rem;
-  font-family: 'Varela Round';
+  font-family: "Varela Round";
   text-transform: uppercase;
   letter-spacing: 0.15rem;
 }
 
 .contact-section .card hr {
-  border-color: #00132E;
+  border-color: #00132e;
   border-width: 0.25rem;
   width: 3rem;
 }
 
 .contact-section .social {
-  margin-top: 5rem;
+  margin-top: 0.5rem;
 }
 
 .contact-section .social a {
@@ -219,17 +227,18 @@ body{
 }
 
 body {
-  font-family: 'Nunito';
+  font-family: "Nunito";
   letter-spacing: 0.0625em;
 }
 
 a {
-  color: #00132E;
+  color: #00132e;
 }
 
-a:focus, a:hover {
+a:focus,
+a:hover {
   text-decoration: none;
-  color: #3c6360;
+  color: #b80c09;
 }
 
 .bg-black {
@@ -237,27 +246,26 @@ a:focus, a:hover {
 }
 
 .bg-primary {
-  background-color: #00132E !important;
+  background-color: #00132e !important;
 }
 
 .text-primary {
-  color: #00132E !important;
+  color: #00132e !important;
 }
 
 footer {
-  padding: 5rem 0;
+  padding: 1rem 0;
 }
 .carousel-inner img {
   height: 100%;
   float: right;
   margin-right: 80px;
-
 }
-.carousel-item{
-position: relative;
-float: left;
-width: 100%;
-height: 100%;
+.carousel-item {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 100%;
 }
 .indicators li {
   box-sizing: content-box;
@@ -273,8 +281,8 @@ height: 100%;
   background-clip: padding-box;
   border-top: 10px solid transparent;
   border-bottom: 0px solid transparent;
-  opacity: .5;
-  transition: opacity .6s ease;
+  opacity: 0.5;
+  transition: opacity 0.6s ease;
 }
 @media only screen and (max-width: 600px) {
   .carousel-inner img {
@@ -294,7 +302,7 @@ height: 100%;
     transition: background-color 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
-    padding: .5rem 0;
+    padding: 0.5rem 0;
     color: rgba(255, 255, 255);
   }
   #mainNav .nav-link {
@@ -321,31 +329,30 @@ height: 100%;
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #00132E;
+    color: #00132e;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #00132E;
+    color: #00132e;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #00132E;
+    color: #00132e;
     outline: none;
-    border-bottom: 0.25rem solid #00132E;
+    border-bottom: 0.25rem solid #00132e;
   }
 }
 @media (min-width: 768px) {
-  .masthead h1  {
+  .masthead h1 {
     font-size: 2rem;
     line-height: 2rem;
-    max-width:100%;
+    max-width: 100%;
   }
-  
 }
 @media (max-width: 600px) {
-  .masthead{
-    margin-top:25px;
+  .masthead {
+    margin-top: 25px;
     height: 50px;
   }
-  body{ 
+  body {
     overflow-x: hidden;
     width: 100%;
   }
@@ -368,7 +375,7 @@ height: 100%;
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #00132E;
+    border-left: 0.5rem solid #00132e;
   }
 }
 
@@ -377,8 +384,27 @@ height: 100%;
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #00132E;
-    border-width: .25rem;
+    border-color: #00132e;
+    border-width: 0.25rem;
     width: 30%;
   }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  cursor: default;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-container {
+  padding: 2px 16px;
 }
