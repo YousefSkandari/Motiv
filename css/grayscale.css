@@ -33,7 +33,7 @@
 }
 
 #mainNav .navbar-nav .nav-item:hover {
-  color: fade(white, 80%);
+  color: fade(#b81209, 80%);
   outline: none;
   background-color: transparent;
 }
@@ -298,7 +298,7 @@ footer {
     padding-bottom: 0;
     border-bottom: none;
     height: 70px;
-    background-color: transparent #00000038;
+    background-color: #00000038;
     -webkit-transition: background-color 0.3s ease-in-out;
     transition: background-color 0.3s ease-in-out;
   }
@@ -412,3 +412,4 @@ footer {
   width: 100%;
   float: right;
 }
+
